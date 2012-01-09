@@ -7,7 +7,7 @@ Description
 
 WP CoffeeScript is a WordPress plugin that makes enqueueing [CoffeeScript](http://coffeescript.org) as easy as enqueueing JavaScript.  Instead of using [`wp_enqueue_script()`](http://codex.wordpress.org/Function_Reference/wp_enqueue_script), as you would for JS, you just use `enqueue_coffeescript()`, which takes almost exactly the same arguments.  The only difference is that the second argument should be the file path instead of the URL.  If you'd like to compile multiple CS files into a single JS file, you can use an array of file paths as the second argument.
 
-Please note that the [CoffeeScript executable](http://coffeescript.org/#installation) must be installed on the server.  You can also set a custom path to the executable (see the examples).
+Please note that the [CoffeeScript executable](http://coffeescript.org/#installation) must be installed on the server.  You can also set a custom path to the executable (see the [examples](https://github.com/tombenner/wp-coffeescript)).
 
 If you'd like to grab development releases, see what new features are being added, or browse the source code please visit the [GitHub repo](http://github.com/tombenner/wp-coffeescript)
 
@@ -16,7 +16,7 @@ Installation
 
 1. Put `wp-coffeescript` into the `wp-content/plugins` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Make sure that the [CoffeeScript executable](http://coffeescript.org/#installation) is installed on the server or set a custom path to the executable (see the examples)
+1. Make sure that the [CoffeeScript executable](http://coffeescript.org/#installation) is installed on the server or set a custom path to the executable (see the [examples](https://github.com/tombenner/wp-coffeescript))
 
 Examples
 --------
